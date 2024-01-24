@@ -1,0 +1,85 @@
+main{
+    background-color:#000000;
+    color:#ffffff;
+}
+nav, header{
+    background-color: #00001d;
+    color:#ffffff;
+    width: 100%;
+    display: flex;
+    align-content: center; 
+    margin: 0;
+}
+nav a, p a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: larger;
+}
+nav li {
+    list-style: none;
+    float:left;
+    padding: 1rem;
+}
+a:hover{
+    text-decoration:overline;
+    color:#646464;
+}
+.front-page, .propaganda {
+    padding: 2rem;
+    font-style: italic;
+}
+footer{
+    background-color:#000000;
+    color:#ffffff;
+    font-size: larger;
+    font-style: oblique;
+    color: #646464;
+    text-align: right;
+    padding: 5px;
+    margin: 0;
+}
+.sectionMain{
+    text-align: center;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10rem;
+}
+select{
+    background-color:#000000;
+    color: #ffffff; 
+    border-radius: 5px;
+
+}
+.templeateCards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding: 1rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+.imgWeather{
+    width:35rem;
+}
+@media screen and (min-width: 250px) and (max-width: 550px)  {
+    .sectionMain{
+        text-align: center;
+       font-size:medium;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       padding: 5rem;
+        
+    }
+    .imgWeather{
+        width:12rem;
+    }
+    .templeateCards{
+        grid-template-columns: repeat(1,1fr);
+    }  
+   
+}
+@media screen and (min-width: 500px) and (max-width: 770px)  {
+    .imgWeather{
+        width:20rem;
+    }
+}

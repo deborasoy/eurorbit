@@ -1,0 +1,202 @@
+[
+    {
+        "nombre": "Athens",
+        "descripcion":"Once the heart of one of the most powerful civilizations in the Neolithic Age,Athens is dominated by colossal architectural feats of the ancient past, from the Acropolis to the Temple of Olympian Zeus. However, the neighborhoods and backstreets of Athens reveal a delightfully modern and laidback energy, with lively urban restaurants and edgy galleries, set against relics of a bygone era. Those seeking respite from the bustle can take a stroll down its gleaming coastline, with pristine waters and relaxing beach resorts",
+        "enlace":"https://www.tripadvisor.com/Tourism-g189400-Athens_Attica-Vacations.html",
+        "actividades":"you have excursions, beaches, museums and old neighborhoods",
+        "latitud":37.984166666667,
+        "longitud":23.728055555556,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Amsterdam",
+        "descripcion":"From its picturesque canals and bridges to its historic homes, Amsterdam is a full-blown fairytale. The brightly-colored bicycles and tulip stands around town don’t hurt either. Must-see sights include the Anne Frank House, the Van Gogh Museum, and the world's only floating flower market. Rent a bike and join thousands of locals peddling around. Other visitors might want to linger in the local coffee shops,which is just a normal part of the city's landscape",
+        "enlace":"https://www.tripadvisor.com/Tourism-g188590-Amsterdam_North_Holland_Province-Vacations.html",
+        "actividades":"you have cruises, museums, excursions, bike or boat rides and if you allow me to add something,experience the best autumns",
+        "latitud":52.372777777778,
+        "longitud":4.8936111111111,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Barcelona",
+        "descripcion":"When it comes to history, art, and architecture Barcelona delivers: There's Gaudí’s iconic Basílica de la Sagrada Familia, the Picasso Museum, and the Gothic Quarter. But look beyond the landmarks and busy mercados and you’ll notice how nature steals the show—the city’s literally surrounded by it. One side you’ve got three miles of gorgeous sandy beaches that give the neighboring Balearic Islands a run for their money, and on the other, the Serra de Collserola mountains, home to Parc de Collserola—one of the biggest city parks in the world. It’s probably why bike culture’s big here: Over 180 miles of bike lanes makes it easy to get around the Catalan capital",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187497-Barcelona_Catalonia-Vacations.html",
+        "actividades":"you have cruises, ski tours, solar catamaran or helicopter,wine and cheese tastings, excursions and beaches",
+        "latitud":41.38879,
+        "longitud":2.15899,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre": "Berlin",
+        "descripcion":"From its fashion to its architecture to its political history, Berlin has always been edgy. The Berlin Wall is a sobering reminder of the hyper-charged postwar atmosphere, and yet the graffiti art that now covers its remnants has become symbolic of social progress...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187323-Berlin-Vacations.html",
+        "actividades":"you have excursions, tours, gastronomic tours and tastings",
+        "latitud":52.516666666667,
+        "longitud":13.383333333333,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Budapest",
+        "descripcion":"Over 15 million gallons of water bubble into Budapest's 118 springs and boreholes every day. That number points to the astounding array of baths in this city, from the sparkling Gellert Baths to the vast 1913 neo-baroque Szechenyi Spa to Rudas Spa, a dramatic 16th-century Turkish pool with original Ottoman architecture. The 'Queen of the Danube' is also steeped in history, culture, and natural beauty.Get your camera ready for the Hungarian Parliament Building, Heroes' Square, and the Danube at sunset",
+        "enlace":"https://www.tripadvisor.com/Tourism-g274887-Budapest_Central_Hungary-Vacations.html",
+        "actividades":"you have tours, cruises, spas, operettas and hot springs",
+        "latitud":47.498333333333,
+        "longitud":19.040833333333,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Dublin",
+        "descripcion":"Dublin brings to mind literary giants, Georgian architecture, and Guinness galore. Nights here are alive with pub crawls and spirited music. But the days are also full of revelry, with enchanting architecture, tucked-away bookstores, and singular museums like the Chester Beatty. Green spaces abound, such as the St Stephens Green or Iveagh Gardens. And no trip is complete without a tour of a local distillery, where you can sample local spirits like Jameson or Teeling",
+        "enlace":"https://www.tripadvisor.com/Tourism-g186605-Dublin_County_Dublin-Vacations.html",
+        "actividades":"you have train, boat or bus tours, excursions and museums",
+        "latitud":53.349722222222,
+        "longitud":-6.2602777777778,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Stockholm",
+        "descripcion":"Sweden's dynamic capital combines contemporary attractions—avant-garde art, chic shopping, innovative dining—with regal palaces and gabled buildings that look lifted out of a storybook...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g189852-Stockholm-Vacations.html",
+        "actividades":"you have museums, cruises, excursions, gastronomy and boat trips, ice skating or mountain biking",
+        "latitud":59.329444444444,
+        "longitud":18.068611111111,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Istanbul",
+        "descripcion":"Many cultures have left their mark on Istanbul over the centuries. Today, you can experience these effects by exploring the neighborhoods of Istanbul yourself. When you see the holy places in Sultanahmet, the 19th century elegance of Beyoğlu, the luxury fashion of Nişantaşı, the enthusiastic cafe folk of Kadıköy and the football-loving streets of Beşiktaş, you will understand why travelers say “Istanbul is not a single city, but many cities within one city” You will understand what they say much more easily",
+        "enlace":"https://www.tripadvisor.com.tr/Tourism-g293974-Istanbul-Vacations.html",
+        "actividades":"you have cruises, excursions and museums",
+        "latitud":41.01,
+        "longitud":28.960277777778,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Florence",
+        "descripcion":"There’s no better place for Renaissance art and architecture than Florence—from the Galleria dell’Accademia (home to Michelangelo’s David) to the cathedrals and arches that make up the Piazzale Michelangelo. But just beyond the main sights, you’ll find some of the city’s off-the-beaten-path gems...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187895-Florence_Tuscany-Vacations.html",
+        "actividades":"you have tours, galleries, excursions and pasta making",
+        "latitud":43.771388888889,
+        "longitud":11.254166666667,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Geneva",
+        "descripcion":"The shores of Lake Geneva have attracted visitors and invaders for millennia. The cheerful city of Geneva sits on the lake's western shore, lofty snowcapped peaks creating a gorgeous backdrop on all sides. The city is perfect for exploring on foot; rent a bike to venture further...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g188057-Geneva-Vacations.html",
+        "actividades":"you have tours, wine tastings, wineries, vineyards and museums",
+        "latitud":46.1967300,
+        "longitud":6.1104400,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"London",
+        "descripcion":"London’s a sprawling city at the center of everything: art, history, culture—you name it. But what sets it apart from other major hubs are its distinct neighborhoods, each with their own vibe...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g186338-London_England-Vacations.html",
+        "actividades":"you have tours, visits to the castle, cruises, galleries and museums",
+        "latitud":51.507222222222,
+        "longitud":-0.1275,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Lisbon",
+        "descripcion":"At first glance, Lisbon’s got everything you could want from a centuries-old European city, with its winding cobblestone streets and a skyline dotted with Medieval castles. But it’s more than just its past. Now, the older sights feel right at home within Lisbon’s more modern vibe...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g189158-Lisbon_Lisbon_District_Central_Portugal-Vacations.html",
+        "actividades":"you have different types of tours including by boat",
+        "latitud":38.708042,
+        "longitud":-9.139016,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Madrid",
+        "descripcion":"If Madrid feels like a fairytale, it’s partially because so many buildings here have a confectionary, castle-like look to them. Even City Hall is astounding, with its white pinnacles and neo-Gothic features...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187514-Madrid-Vacations.html",
+        "actividades":"you have different types of tours, hot air balloon rides and museums",
+        "latitud":40.4165,
+        "longitud":-3.70256,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Moscow",
+        "descripcion":"The political, scientific, historical, architectural and business center of Russia, Moscow displays the country's contrasts at their most extreme. The ancient and modern are juxtaposed side by side in this city of 10 million...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g298484-Moscow_Central_Russia-Vacations.html",
+        "actividades":"you have museums, galleries, parks, hills and theaters",
+        "latitud":55.75222,
+        "longitud":37.61556,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Porto",
+        "descripcion":"The city that gave the country (and port wine) its name, Porto is the second largest city in Portugal, after Lisbon. This is a city of the ancient world with a strong presence in the industrial present",
+        "enlace":"https://www.tripadvisor.com.ar/Tourism-g189180-Porto_Porto_District_Northern_Portugal-Vacations.html",
+        "actividades":"you have tours, excursions, cruises and a valley",
+        "latitud":41.149472222222,
+        "longitud":-8.6107777777778,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Paris",
+        "descripcion":"Paris lives up to its hype: A city with unbelievable food and culture, plus stunning views everywhere you turn. With 18 arrondissements, it’s a lot to see in one trip, but each neighborhood has a personality all its own...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187147-Paris_Ile_de_France-Vacations.html",
+        "actividades":"you have cruises, excursions, museums, bike or boat tours, beer tasting",
+        "latitud":48.856666666667,
+        "longitud":2.3522222222222,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Rome",
+        "descripcion":"It’s easy to see why Rome’s one of the most-visited places on the planet:There’s history everywhere (the Pantheon, the Colosseum, the list goes on), sculptural masterpieces in almost every piazza, and—of course—ridiculously good food. Every trip could feel like a whirlwind, but slow down and you’ll discover lots of surprises...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187791-Rome_Lazio-Vacations.html",
+        "actividades":" you have tours, gastronomy and galleries",
+        "latitud":41.893055555556,
+        "longitud":12.482777777778,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Vienna",
+        "descripcion":"With its Baroque palaces and manicured gardens, Vienna is all elegance and charm. What’s more: They’ve got a huge opera scene—with three houses including the Vienna State Opera—and a deep connection to classical music (Mozart, Beethoven, and Haydn all lived here). But it’s not all history at its (literal) finest. To see a modern side, check out MuseumsQuartier, a creative district packed with exhibits, shops, and restaurants. Coffee culture’s a real thing, and there are tons of cozy cafés where you can grab an espresso and a slice of sachertorte, and hang out for the day",
+        "enlace":"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html",
+        "actividades":" you have bus, boat or bicycle tours, classical concerts, orchestras, museums",
+        "latitud":48.208333333333,
+        "longitud":16.3725,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+    {
+        "nombre":"Venice",
+        "descripcion":"The centuries-old buildings and bridges, the quiet canals and cobblestone alleyways, the labyrinth of eye-catching islands—it doesn’t get dreamier than Venice. And while the capital of the Veneto is undoubtedly a stunner, it’s also a very real city...",
+        "enlace":"https://www.tripadvisor.com/Tourism-g187870-Venice_Veneto-Vacations.html",
+        "actividades":"you have a palace, tours, boat trips, gondola or bicycle rides",
+        "latitud":45.439722222222,
+        "longitud":12.331944444444,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    },
+     {
+        "nombre":"Zurich",
+        "descripcion":"The largest city in Switzerland, Zurich is a major contemporary art and shopping destination. Important artworks are displayed in the Kunsthaus and the Rietberg Museum, while those who consider shopping an art can hone their skills along Bahnhofstrasse and Niederdorf.",
+        "enlace":"https://www.tripadvisor.com/Tourism-g188113-Zurich-Vacations.html",
+        "actividades":"you have waterfalls, adventures, excursions, cruises and ferry rides",
+        "latitud":47.374444444444,
+        "longitud":8.5411111111111,
+        "pronosticoInfo":[],
+        "pronosticoImg":""
+    }
+]

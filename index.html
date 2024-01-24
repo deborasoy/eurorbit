@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./main.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <title>EurOrbit</title>
+ </head>
+ <body>
+     <header id="Home"><h1>EurOrbit</h1></header>
+     <nav>
+         <ul>
+             <li><a href="./index.html#home">Home</a></li>
+             <li><a href="./index.html#weather">Weather index</a></li>
+             <li><a href="./cities.html">Cities</a></li>
+             <li><a href="#">Europe Travel Agency</a></li>
+         </ul>
+       </nav>
+     <main>
+         <section class="sectionMain">
+                <h2>European weather forecast of its 20 best cities</h2>
+                <!-- Las 20 mejores ciudades de Europa para investigar su clima -->
+                <form action="" id="formCities">
+                    <label for="cities">Select and search weather</label>
+                    <select name="cities" id="cities">
+                       <option value="option">Options</option>
+                       <option value="Athens">Athens, Greece</option>
+                      <option value="Amsterdam">Amsterdam, Netherlands</option>
+                      <option value="Barcelona">Barcelona, Spain</option>
+                      <option value="Berlin">Berlin, Germany</option>
+                      <option value="Budapest">Budapest, Hungary</option>
+                      <option value="Dublin">Dublin, Ireland</option>
+                      <option value="Stockholm">Stockholm, Sweden</option>
+                      <option value="Istanbul">Istanbul, Türkiye</option>
+                      <option value="Florence">Florence, Italy</option>
+                      <option value="Geneva">Geneva, Sweden</option>
+                      <option value="London">London, England</option>
+                      <option value="Lisbon">Lisbon, Portugal</option>
+                      <option value="Madrid">Madrid, Spain</option>
+                      <option value="Moscow">Moscow, Russia</option>
+                      <option value="Porto">Porto, Portugal</option>
+                      <option value="Paris">Paris, France</option>
+                      <option value="Rome">Rome, Italy</option>
+                      <option value="Vienna">Vienna, Austria</option>
+                      <option value="Venice">Venice, Italy</option>
+                      <option value="Zurich">Zurich, Switzerland</option>
+                 </select>
+             </form>
+          <!-- div que contiene las card con los climas por cada dia de la semana -->
+             <div class="container">
+               <div id="container" class="row text-center"></div>
+             </div>
+        </section>
+        <section class="propaganda">
+            <h2>European Travel Agency</h2>
+            <p>You already have the destination of your trip and you know the weather that will accompany it, what are you waiting for to book your flight with our agency of choice! </p>
+            <h2 id="weather">index of climate types</h2>
+         </section>
+         <section class="templeateCards">
+            <div >
+             <p>Sunny</p>
+             <img src="./assets/sunny.jpg" alt="sunny" width="150px" height="100px">  
+          </div>
+          <div>
+             <p>Sunny to cloudy</p>
+             <img src="./assets/sunnyCloudy.jpg" alt="sunny to cloudy"  width="150px" height="100px">
+          </div>
+          <div>
+             <p>Cloudy</p>
+             <img src="./assets/cloudy.jpg" alt="cloudy" width="150" height="100px">
+          </div>
+          <div>
+             <p>Overcast</p>
+             <img src="./assets/overcast.jpg" alt="overcast" width="150px" height="100px">
+          </div>
+          <div>
+             <p>Sun rain</p>
+             <img src="./assets/sunRain.jpg" alt="sun rain" width="150px" height="100px">
+          </div>
+          <div>
+             <p>Showers</p>
+             <img src="./assets/showers.jpg" alt="showers" width="150px" height="100px">
+          </div>
+          <div>
+             <p>Heavy rain</p>
+             <img src="./assets/heavyRain.jpg" alt="heavy rain" width="150px" height="100px"> 
+          </div>
+          <div>
+             <p>Snowy</p>
+             <img src="./assets/snowy.jpg" alt="snowy" width="150px" height="100px">  
+          </div>
+          <div>
+             <p>Thunder</p>
+             <img src="./assets/thunder.jpg" alt="thunder" width="150px" height="100px">
+          </div>
+          <div>
+             <p>Fog</p>
+             <img src="./assets/fog.jpg" alt="fog" width="150px" height="100px">
+          </div>
+          <div >
+             <p>Frost</p>
+             <img src="./assets/frost.jpg" alt="frost" width="150px" height="100px">
+          </div>
+          <div>
+             <p>Windy</p>
+             <img src="./assets/wendy.jpg" alt="windy" width="150px" height="100px">
+          </div>
+       </section>
+    </main>
+     <footer><p> &copy;2024 EurOrbit</p></footer>
+     <script src="./index.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ </body>
+</html>
