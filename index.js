@@ -1,5 +1,6 @@
 //called the api for each city obtains weather details and images by weather type
-document.addEventListener("DOMContentLoaded",getCities());
+document.addEventListener("DOMContentLoaded", getCities()); 
+
 //get cities from JSON and api calls
 async function getCities(){
      const response = await fetch("./cities.json");
@@ -9,7 +10,9 @@ async function getCities(){
 };
 //Get weather information from the 7timer API! for seven days, parameter: civillight, latitude, longitude
 async function getWeatherInfo(object){
-    const response = await fetch(`http://www.7timer.info/bin/api.pl?lon=${object.longitud}&lat=${object.latitud}&product=civillight&output=json`);
+     const latitud = object.latitud
+     const longitud = object.longitud
+     const response = await fetch(`https://www.7timer.info/bin/api.pl?lon=${longitud}&lat=${latitud}&product=civillight&output=json`);
     if(!response.ok) throw new Error(`${response.status}`);
     const data = await response.json();
     const {dataseries}= data;
@@ -17,7 +20,9 @@ async function getWeatherInfo(object){
     //add the data as a value to the property of the city object
 };
 async function getWeatherImg(object){
-    const response = await fetch(`http://www.7timer.info/bin/civillight.php?lon=${object.longitud}&lat=${object.latitud}&ac=0&lang=en&unit=metric&output=internal&tzshift=0`);
+    const latitud = object.latitud
+    const longitud = object.longitud
+    const response = await fetch(`https://www.7timer.info/bin/civillight.php?lon=${longitud}&lat=${latitud}&ac=0&lang=en&unit=metric&output=internal&tzshift=0`);
     if(!response.ok) throw new Error(`${response.status}`);
     const data = await response.blob();
     const objectURL = URL.createObjectURL(data)
@@ -62,9 +67,9 @@ async function getWeatherImg(object){
             if( element.nombre === select.value){ 
                 document.getElementById("container").innerHTML = `<i class="fa fa-spinner fa-pulse fa-5x" style="padding: 4rem;"></i>`
                 //load the content of the selected city
-                 await getWeatherInfo(element)
-                 await getWeatherImg(element)
-                showPronostico(element) //shows the weather of the required city
+                 const Weather = await getWeatherInfo(element)
+                 const imgWeather = await  getWeatherImg(element)
+                 showPronostico(element) //shows the weather of the required city
             }
         }
     });
