@@ -29,8 +29,17 @@ async function getWeatherImg(object){
     object.pronosticoImg = objectURL; 
     //adds as a value the url created with the object that comes from the api to the property of the city object
 };
+
+function formatearFecha(fecha){
+    const año = fecha.substring(0,4);
+    const mes = fecha.substring(4,6);
+    const dia = fecha.substring(6,8);
+
+    return dia + "-" + mes + "-" + año
+};
+
 //show the weather for the next seven days in the best twenty cities in Europe
- function showPronostico(object){
+function showPronostico(object){
     const div = document.getElementById("container");
     const containerImg = document.getElementById("containerImg");
     //template to show the weather according to the city
@@ -44,13 +53,15 @@ async function getWeatherImg(object){
     for (let index = 0; index < forecast.length; index++) {
         const element = forecast[index];
         const {date, weather, temp2m} = element;
+        const dateString = date.toString()
+        const fechaFormateada = formatearFecha(dateString)
         template += `
-        <div class="card m-2 col-lg-2" style="max-width:7rem">
-            <div class="card-header">${date}</div>
-            <div >
-              <p >Weather ${weather} </p>
-              <p > temp max ${temp2m.max}</p>
-              <p >  temp min ${temp2m.min}</p>
+        <div class="card m-2 col-lg-2" style="max-width:9rem">
+            <div class="card-header">${fechaFormateada}</div>
+            <div>
+              <p><b>Weather: </b>${weather}</p>
+              <p>temp max ${temp2m.max}ºC</p>
+              <p>temp min ${temp2m.min}ºC</p>
            </div>
         </div>
         `
@@ -58,7 +69,7 @@ async function getWeatherImg(object){
     div.innerHTML = template;
 };
 //function with events according to user choice
- function selectCityShowWeather(array){
+function selectCityShowWeather(array){
     const select = document.getElementById("cities");
 
     select.addEventListener("change", async ()=>{ 
@@ -73,4 +84,4 @@ async function getWeatherImg(object){
             }
         }
     });
-};
+}
